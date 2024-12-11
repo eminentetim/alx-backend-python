@@ -84,11 +84,15 @@ def insert_data(connection, csv_file):
             next(csv_reader)  # Skip header row
             
             for row in csv_reader:
+                if len(row) < 3:
+                    print(f"Skipping incomplete row: {row}")
+                    continue
+                
                 # Generate UUID if not provided in CSV
-                user_id = str(uuid.uuid4()) if not row[0] else row[0]
-                name = row[0]
-                email = row[1]
-                age = row[2]
+                user_id = str(uuid.uuid4())
+                name = row[0].strip()
+                email = row[1].strip()
+                age = row[2].strip()
                 
                 # Insert or ignore if duplicate
                 insert_query = """
@@ -105,3 +109,7 @@ def insert_data(connection, csv_file):
     except mysql.connector.Error as err:
         print(f"Error inserting data: {err}")
         return False
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+        return False
+
