@@ -1,0 +1,10 @@
+2025-01-13 15:55:16.502482 - User: eminent - Path: /
+Not Found: /
+2025-01-13 15:55:29.313576 - User: eminent - Path: /admin/login/
+2025-01-13 15:55:29.332420 - User: eminent - Path: /admin/
+2025-01-13 15:55:47.473067 - User: eminent - Path: /admin/logout/
+2025-01-13 15:55:51.207264 - User: Anonymous - Path: /admin/
+2025-01-13 15:55:51.216246 - User: Anonymous - Path: /admin/login/
+2025-01-13 15:55:55.415051 - User: Anonymous - Path: /admin/login/
+2025-01-13 15:55:56.046459 - User: eminent - Path: /admin/
+/home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
