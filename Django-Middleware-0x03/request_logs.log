@@ -1,11 +1,93 @@
-2025-01-15 23:21:00 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:21:16 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:21:20 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:21:24 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:21:40 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:21:48 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:21:51 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:22:07 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:22:12 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
-2025-01-15 23:23:53 - /home/eminent/alx-backend-python/Django-Middleware-0x03/messaging_app/settings.py changed, reloading.
-2025-01-15 23:23:59 - /home/eminent/alx-backend-python/Django-Middleware-0x03/messaging_app/settings.py changed, reloading.
+2025-01-19 18:06:24 - 2025-01-19 18:06:24.546322 - User: eminent - Path: /
+2025-01-19 18:06:24 - Forbidden: /
+2025-01-19 18:12:24 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:12:46 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:12:52 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:13:33 - 2025-01-19 18:13:33.241066 - User: eminent - Path: /
+2025-01-19 18:13:33 - Not Found: /
+2025-01-19 18:13:49 - 2025-01-19 18:13:49.538529 - User: eminent - Path: /admin/login/
+2025-01-19 18:13:49 - 2025-01-19 18:13:49.570951 - User: eminent - Path: /admin/
+2025-01-19 18:15:19 - 2025-01-19 18:15:19.146166 - User: eminent - Path: /admin/logout/
+2025-01-19 18:15:58 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:16:02 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:16:19 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:16:23 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:16:31 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:17:10 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:18:23 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:20:08 - /home/eminent/alx-backend-python/Django-Middleware-0x03/messaging_app/settings.py changed, reloading.
+2025-01-19 18:20:26 - 2025-01-19 18:20:26.557531 - User: Anonymous - Path: /admin/login/
+2025-01-19 18:20:34 - 2025-01-19 18:20:34.166848 - User: Anonymous - Path: /admin/login/
+2025-01-19 18:20:35 - 2025-01-19 18:20:35.287076 - User: eminent - Path: /admin/
+2025-01-19 18:24:39 - /home/eminent/alx-backend-python/Django-Middleware-0x03/chats/middleware.py changed, reloading.
+2025-01-19 18:25:56 - /home/eminent/alx-backend-python/Django-Middleware-0x03/messaging_app/settings.py changed, reloading.
+2025-01-19 18:25:58 - /home/eminent/alx-backend-python/Django-Middleware-0x03/messaging_app/settings.py changed, reloading.
+2025-01-19 18:26:06 - 2025-01-19 18:26:06.848955 - User: eminent - Path: /admin/auth/user/
+2025-01-19 18:26:07 - 2025-01-19 18:26:07.050367 - User: eminent - Path: /admin/jsi18n/
+2025-01-19 18:26:32 - 2025-01-19 18:26:32.180092 - User: eminent - Path: /admin/auth/group/
+2025-01-19 18:26:32 - 2025-01-19 18:26:32.252935 - User: eminent - Path: /admin/jsi18n/
+2025-01-19 18:27:11 - 2025-01-19 18:27:11.330687 - User: eminent - Path: /admin/logout/
+2025-01-19 18:27:14 - 2025-01-19 18:27:14.489356 - User: Anonymous - Path: /admin/
+2025-01-19 18:27:14 - 2025-01-19 18:27:14.498593 - User: Anonymous - Path: /admin/login/
+2025-01-19 18:27:20 - 2025-01-19 18:27:20.448650 - User: Anonymous - Path: /admin/login/
+2025-01-19 18:27:21 - 2025-01-19 18:27:21.090889 - User: eminent - Path: /admin/
+2025-01-19 18:27:43 - 2025-01-19 18:27:43.425654 - User: eminent - Path: /
+2025-01-19 18:27:43 - Not Found: /
+2025-01-19 18:27:53 - 2025-01-19 18:27:53.570981 - User: eminent - Path: /admin/login/
+2025-01-19 18:27:53 - 2025-01-19 18:27:53.582654 - User: eminent - Path: /admin/
+2025-01-19 18:28:03 - 2025-01-19 18:28:03.286553 - User: eminent - Path: /admin/logout/
+2025-01-19 18:28:12 - 2025-01-19 18:28:12.913608 - User: Anonymous - Path: /
+2025-01-19 18:28:12 - Not Found: /
+2025-01-19 18:28:23 - 2025-01-19 18:28:23.792222 - User: Anonymous - Path: /api
+2025-01-19 18:28:23 - 2025-01-19 18:28:23.805195 - User: Anonymous - Path: /api/
+2025-01-19 18:28:32 - 2025-01-19 18:28:32.871588 - User: Anonymous - Path: /api/conversations/
+2025-01-19 18:28:33 - Internal Server Error: /api/conversations/
+Traceback (most recent call last):
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 658, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 565, in get_raw_data_form
+    data = serializer.data.copy()
+           ^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.get_initial()
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 421, in get_initial
+    for field in self.fields.values()
+                 ^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 373, in fields
+    fields[key] = value
+    ~~~~~~^^^^^
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/utils/serializer_helpers.py", line 167, in __setitem__
+    field.bind(field_name=key, parent=self.serializer)
+  File "/home/eminent/alx-backend-python/venv/lib/python3.11/site-packages/rest_framework/fields.py", line 358, in bind
+    assert self.source != field_name, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: It is redundant to specify `source='messages'` on field 'ListSerializer' in serializer 'ConversationSerializer', because it is the same as the field name. Remove the `source` keyword argument.
+2025-01-19 18:29:21 - 2025-01-19 18:29:21.719891 - User: Anonymous - Path: /
+2025-01-19 18:29:21 - Not Found: /
+2025-01-19 18:29:43 - 2025-01-19 18:29:43.639967 - User: Anonymous - Path: /admin/login/
+2025-01-19 18:29:50 - 2025-01-19 18:29:50.485816 - User: Anonymous - Path: /admin/login/
+2025-01-19 18:30:03 - 2025-01-19 18:30:03.919239 - User: Anonymous - Path: /admin/login/
+2025-01-19 18:30:05 - 2025-01-19 18:30:05.362274 - User: eminent - Path: /admin/

@@ -29,28 +29,23 @@ class RestrictAccessByTimeMiddleware(MiddlewareMixin):
 
     def __call__(self, request):
         # Get the current server time
-        current_time = datetime.now().time()
+        current_hour = datetime.now().hour
 
-        # Define the restricted access hours
-        start_time = current_time.replace(hour=9, minute=0, second=0, microsecond=0)
-        end_time = current_time.replace(hour=18, minute=0, second=0, microsecond=0)
+        # Restrict access outside 6AM (6:00) and 8AM (8:00)
+        if not (18 <= current_hour < 24):
+            return HttpResponseForbidden("Access to the chat is restricted outside 5 PM and 1 AM.")
 
-        # Check if the current time is outside the allowed hours
-        if not (start_time <= current_time <= end_time):
-            return HttpResponseForbidden("Access to the messaging app is restricted outside of 9 AM and 6 PM.")
-
+        # Proceed with the request
         response = self.get_response(request)
         return response
-    
-
 
 class RateLimitMiddleware(MiddlewareMixin):
-    def __init__(self, get_response):
+    def _init_(self, get_response):
         self.get_response = get_response
         self.rate_limit = 5  # Limit of 5 messages per minute
         self.time_window = 60  # Time window in seconds (1 minute)
 
-    def __call__(self, request):
+    def _call_(self, request):
         if request.method == "POST":
             ip_address = self.get_client_ip(request)
             cache_key = f"rate_limit_{ip_address}"
@@ -84,14 +79,13 @@ class RateLimitMiddleware(MiddlewareMixin):
         else:
             ip_address = request.META.get('REMOTE_ADDR')
         return ip_address
-
-
+    
 
 class RolePermissionMiddleware(MiddlewareMixin):
-    def __init__(self, get_response):
+    def _init_(self, get_response):
         self.get_response = get_response
 
-    def __call__(self, request):
+    def _call_(self, request):
         # Define the restricted paths (you can customize this based on your needs)
         restricted_paths = ['/admin/', '/host/']
 
